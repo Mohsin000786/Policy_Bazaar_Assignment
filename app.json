@@ -4,10 +4,10 @@
     "slug": "policy_bazaar_assignment",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/app_icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/app_icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "mohsin98policybazaarassignment"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/app_icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mohsin_98.policy_bazaar_assignment"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/app_icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "deab0dca-cfc7-46e3-8e9a-35d50dbc7a20"
+      }
     }
   }
 }
